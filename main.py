@@ -9,7 +9,7 @@ def start(update=Update, context=CallbackContext):
 
 
 def end(update=Update, context=CallbackContext):
-    update.message.reply_text("Пока!")
+    update.message.reply_text("Пока! Пока!")
 
 def get_date(update=Update, context=CallbackContext):
     now= datetime.datetime.now()
