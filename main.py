@@ -35,7 +35,7 @@ def number_analyze(word):
 
 
 def echo(update=Update, context=CallbackContext):
-    answer_text = "Вот что я думаю: "
+    answer_text = "Вот что я думаю! "
     user_text = update.message.text
 
     #colors = ["желтый", "красный", "синий"]
