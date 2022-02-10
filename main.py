@@ -5,7 +5,7 @@ import random
 import os
 
 def start(update=Update, context=CallbackContext):
-    update.message.reply_text("Привет!")
+    update.message.reply_text("Привет! Привет!")
 
 
 def end(update=Update, context=CallbackContext):
